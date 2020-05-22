@@ -7,6 +7,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express()
+const port = process.env.port || 3000
 
 // Static 
 const publicDir = path.join(__dirname, '../public')
@@ -93,7 +94,8 @@ app.get('*', (req, res) => {
 })
 
 // Listen
-app.listen(3000, () => console.log('App listening on http://localhost:3000'))
+
+app.listen(port, () => console.log(`App listening on port ${port}`))
 
 
 // 1. Create html page for about
