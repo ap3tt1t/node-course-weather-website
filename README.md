@@ -1,7 +1,7 @@
 # node-course-weather-website
 
 Project developed as part of Andrew Mead's (mead.io) Node.js course on Udemy.com.
-Currently deployed to: 
+Currently deployed to: https://pettit-nodecourse-weather-app.herokuapp.com/
 
 Fetches location data (latitude and longitude) from Mapbox (API Key needed for this) and then uses the data to provide weather data
 from the Weatherstack API (also need API key for this).
